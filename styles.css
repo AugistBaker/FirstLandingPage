@@ -1,3 +1,43 @@
 body{
     font-family: Roboto, Arial, 'Times New Roman';
+    margin: 24px 100px
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.links{
+    display: flex;
+    gap: 8px;
+}
+
+.top-content{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.bottom-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.copyright{
+    text-align: center;
 }
