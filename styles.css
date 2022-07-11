@@ -1,43 +1,140 @@
 body{
-    font-family: Roboto, Arial, 'Times New Roman';
-    margin: 24px 100px
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    background-color: #1f2937;
+    margin: 0;
 }
 
 .header{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -10px;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+    flex-direction: column;
 }
 
-.links{
-    display: flex;
-    gap: 8px;
+.headersecondary{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
-.top-content{
+.bottom-part-head{
     display: flex;
-    margin-bottom: 50px;
+    flex: 1 1 auto;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .random-info{
     display: flex;
+    flex: auto;
+    padding: 25px;
+    padding-bottom: 75px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-info-two{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info-three{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.random-info-four{
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 200px;
+    padding: 25px;
     text-align: center;
-    margin-bottom: 50px;
+}
+
+.squareimage{
+    border-radius: 10%;
 }
 
 .quote{
+    background-color: #E5E7EB;
+}
+
+.quote-two{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quote-three{
+    display: flex;
+    flex:auto;
+    margin: 0;
+}
+
+.call-background{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.call{
+    display: flex;
+    flex:auto;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.call-two{
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.call-three{
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
 }
 
-.bottom-content{
-    text-align: center;
-    margin-bottom: 50px;
+.call-three p{
+    margin: 2px;
 }
 
-.copyright{
-    text-align: center;
+.call-three button{
+    background-color: #3882f6;
+    border:solid white;
+    border-width: 1px;
+    width: 100px;
+}
+
+/* General styles for buttons and images etc */
+
+button{
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 8px;
+    width: 80px;
+}
+
+img{
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
 }

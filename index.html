@@ -5,48 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Landing Page Placeholder</title>
+
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+   
+    <title>First Page</title>
 </head>
 
 <body>
+    <!-- Header -->
+
     <div class="header">
-        <div>Header Logo</div>
-        <div class="links">
-            <div>link one</div>
-            <div>link two</div>
-            <div>link three</div>
+        <div style="display: flex;flex-direction: row;align-items: center;justify-content: space-between;">
+            <p style="font-size:24px;color:#F9FAF8;font-weight: 800;">Header Logo</p>
+            <div style="display:flex;gap:16px;">
+                <a class="headersecondary" href="linkone">header link one</a>
+                <a class="headersecondary" href="linktwo">header link two</a>
+                <a class="headersecondary" href="linkthree">header link three</a>
+            </div>
+
+        </div>
+        <div class="bottom-part-head">
+            <div style="max-width: 400px;">
+                <p style="font-size: 48px;color:#F9FAF8; font-weight: 800;margin-bottom: 10px;">This website is awesome</p>
+                <p class="headersecondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button>Sign Up</button>
+            </div>
+            <div style="display:flex;justify-content:end;">
+                <img width="75%"src="images/cat.jpeg" alt="cat laying down">
+            </div>
         </div>
     </div>
 
-    <div class="top-content">
-        <div class="tc-left">
-            <div>This website is awesome</div>
-            <div>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
-            <div><button>Sign up</button></div>
-        </div>
-        <div class="tc-right">
-            <div>THIS IS AN IMAGE. YES. MAKE SURE TO STYLE IT RIGHT.</div>
-        </div>
-    </div>
+    <!-- Random Info -->
 
     <div class="random-info">
-        <div>Some random information.</div>
-        <div>(insert a bunch of boxes and text under them)</div>
+        <div class="random-info-two">
+            <p style="font-size: 36px;color: #1f2937;font-weight: 600;">Some Random Information.</h2>
+                <div class="random-info-three">
+                    <div class="random-info-four">
+                        <img class="squareimage" width=200px; src="images/square.jpg">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="random-info-four">
+                        <img class="squareimage" width=200px; src="images/square.jpg">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="random-info-four">
+                        <img class="squareimage" width=200px; src="images/square.jpg">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="random-info-four">
+                        <img class="squareimage" width=200px; src="images/square.jpg">
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                </div>
+        </div>
     </div>
+
+    <!-- Quote -->
 
     <div class="quote">
-        <div>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div class="quote-author">-Thor, God of Thunder</div>
+        <div class="quote-two">
+                <p class="quote-three" style="font-size:36px;font-style:italic;font-weight:300;color: #1F2937;">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <p class="quote-three" style="font-size: 32px;font-weight:600;justify-content: end;">-Thor, God of Thunder</p>
+        </div>
     </div>
 
-    <div class="bottom-content">
-        <div>Call to action! It's time!</div>
-        <div>Sign up for our product by clicking that button right over there!</div>
-        <div><button>Sign up</button></div>
+    <!-- Call to Action -->
+
+    <div class="call-background">
+        <div class="call">
+            <div class="call-two">
+                <div class="call-three">
+                    <p style="font-weight: 600;color:white">Call to action! It's time!</p>
+                    <p style="color:white;">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="call-three">
+                    <button>Sign up</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-
-    <div class="copyright">Copyright The Odin Project 2021</div>
+    <!-- Copyright -->
+    <!-- I also will preface that none of this content is original, I was replicating a photo given to me by The Odin Project  -->
+    <div class="copyright">
+        <p style="display: flex;justify-content:center;color:white;padding:24px">Copyright © The Odin Project 2021</p>
+    </div>
 </body>
-
 </html>
